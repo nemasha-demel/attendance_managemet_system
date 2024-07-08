@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&display=swap');
+
+
+#homeNav {
+    background: #7DA0CA;
+}
+
+.welcome-text {
+    min-height: 80vh;
+
+}
+
+
+
+.welcome-text h4 {
+    font-size: 51px;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.welcome-text p {
+
+
+    background: #7DA0CA;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#about .card-1 h5 {
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+}
+
+#about {
+    min-height: 100vh;
+}
+
+#about .card-1 {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#contact {
+    min-height: 100vh;
+}
+
+#contact form {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#contact form h5 {
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+
+}
+
+
+textarea {
+    resize: none;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+
+}
+
+.add {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    bottom: 20px;
+}
+
+.add button {
+
+    background-color: #7DA0CA;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+
+.add button:hover {
+    background-color: #eee;
+    color: #555;
+}
+
+.save {
+
+    clear: both;
+}
+
+.save button {
+
+    background-color: #7DA0CA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.save button:hover {
+    background-color: #eee;
+    color: #555;
+}
+
+
+
+.table1 {
+    border: 2px rgb(206, 200, 200) solid;
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.table2 {
+    border: 2px rgb(206, 200, 200) solid;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+footer {
+    clear: both;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #555;
+}
+
+.add-lecturer {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#filters select {
+    width: 150px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.selection {
+    clear: both;
+}
+
+.selection #filters {
+    float: left;
+}
+
+.add-course {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

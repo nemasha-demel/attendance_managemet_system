@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar-brand {
+    color: #04125C;
+    font-size: 20px;
+    font-family: Quicksand; /* Change the font size to 20 pixels */
+    /* Add any other styles you want */
+}
+
+.body-home {
+    background: #ffffff;
+    /*background: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+
+#homeNav {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar-nav.right {
+    margin-left: auto; /* Push the navbar items to the right */
+}
+
+.navbar-nav.right .nav-item {
+    margin-right: -200px; /* Adjust the margin to move the "Logout" link more to the right */
+}
+
+.nav-link i {
+    margin-right: 5px; /* Adjust the margin between icon and text */
+}
+
+.fa-sign-out-alt {
+    color: #1941BA; /* Change the color of the icon */
+    font-size: 18px; /* Adjust the size of the icon */
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 20px; /* Add margin-bottom to create space below the welcome text */
+    color: #04125C;
+}
+
+.container h5 {
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    margin-top: 20px; /* Optional: Add margin at the top */
+    margin-bottom: 20px; /* Adjust margin-bottom to create space below the welcome text */
+}
+.container .btn-custom {
+    background-color: #4d4af2; /* Change to your desired background color */
+    border-color: #4d4af2; /* Change to your desired border color */
+    color: #fff; /* Change to your desired text color */
+}
+
+.container .btn-custom:hover {
+    background-color: #4d4af2; /* Change to your desired hover background color */
+    border-color: #4d4af2; /* Change to your desired hover border color */
+}
+
+.container .d-flex .btn-secondary.btn-custom {
+    color: #fff;
+    background-color: #92BDF9;
+    border-color: #92BDF9;
+}
+
+.container .d-flex .btn-secondary.btn-custom:hover {
+    background-color: #92BDF9;
+    border-color: #92BDF9;
+}
+/* Card for showing student details*/
+.details-card {
+    background-color: rgba(125, 160, 202, 0.7); /* Semi-transparent background color */
+    backdrop-filter: blur(10px); /* Blur effect */
+}
+
+.details-card .card-title {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: #04125C;
+}
+
+
+.details-card .card-body h5.card-title {
+    font-size: 18px; /* Change to your desired font size */
+    color: #04125C; /* Change to your desired text color */
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+
+table td {
+    color: #1941BA; /* Change this color as per your preference */
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        overflow-x: auto;
+    }
+}
+
+/* Card for edit form */
+.update-form-card {
+    background-color: #7DA0CA; /* New background color for the update form card */
+}
+
+.update-details-text {
+    color: #04125C; /* Update with your desired color */
+}
+

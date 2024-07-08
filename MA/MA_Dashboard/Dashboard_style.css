@@ -1,0 +1,83 @@
+#boxes .card-1 h5 {
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+}
+
+#about {
+    min-height: 100vh;
+}
+
+
+.card {
+    background-color: #7DA0CA;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 1500px;
+    /* Max width to prevent cards from being too wide */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h5 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.card .content {
+    font-size: 0.9em;
+    color: #666666;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.table1 {
+    border: 2px rgb(206, 200, 200) solid;
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.card-header h5 {
+    font-size: 30px;
+}
+
+.notification-container {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.notification-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.notification-message {
+    font-size: 20px;
+    color: black;
+}
+
+.notification-timestamp {
+    font-size: 15px;
+    color: gray;
+}
+
+.notification-icon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.notification-read {
+    background-color: #e0e0e0;
+    /* Slightly different color for read notifications */
+}

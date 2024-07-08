@@ -1,0 +1,6 @@
+.welcome-text h4 {
+    font-size: 51px;
+    font-family: "Lobster", sans-serif;
+    color: rgb(14, 14, 15);
+    /* Use 'color' instead of 'font-color' */
+}

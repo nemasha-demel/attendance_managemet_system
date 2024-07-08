@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#homeNav {
+    background: #7DA0CA;
+}
+
+.welcome-text {
+    min-height: 80vh;
+
+}
+
+.welcome-text img {}
+
+.welcome-text h4 {
+    font-size: 51px;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.welcome-text p {
+
+
+    background: #7DA0CA;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#about .card-1 h5 {
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+}
+
+#about {
+    min-height: 100vh;
+}
+
+#about .card-1 {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#contact {
+    min-height: 100vh;
+}
+
+#contact form {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#contact form h5 {
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+
+}
+
+
+textarea {
+    resize: none;
+}
+
+.login {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.login h5 {
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+}
+
+.register {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.register h5 {
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+}

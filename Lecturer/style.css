@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar-brand {
+    color: #04125C; 
+    font-size: 20px;
+    font-family: Quicksand; 
+}
+
+.body-home {
+    background: #ffffff;
+}
+
+#homeNav {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.nav-link i {
+    margin-right: 5px; /* Adjust the margin between icon and text */
+}
+
+.fa-sign-out-alt {
+    color: #1941BA; /* Change the color of the icon */
+    font-size: 18px; /* Adjust the size of the icon */
+}
+
+/* Adjust the margin and padding to bring the card closer to the top */
+#CourseandAtt {
+    margin-top: 5px;
+    min-height: 100vh; /* Adjust as needed to move the section closer to the top */
+}
+
+#CourseandAtt h4 {
+    margin-bottom: 15px; /* Adjust to control space between the title and the card */
+}
+
+.card.mb-3 {
+    margin-top: 0; /* Remove top margin */
+}
+
+.Course_attendance h4 {
+    color: #04125C;
+    font-size: 45px;
+    font-family: Quicksand;
+    font-weight: bold;
+
+}
+
+textarea {
+    resize: none;
+}
+
+.login, .register {
+    background: #7DA0CA;
+    max-width: 600px;
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.login h5, .register h5 {
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 0 20px; 
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.dropdown-item {
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.form-control {
+    font-size: 14px;
+    width: 100%;
+}
+
+.container {
+    margin-top: 50px;
+    color: #04125C;
+}
+
+.container h5 {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+}
+
+#filters {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#filters select {
+    margin: 0 10px;
+}
+
+.btn-view-students {
+    background-color: #92BDF9; /* Change to your desired color */
+    color: #f2f2f2; /* Text color */
+    border-color: #92BDF9; /* Border color, same as background for consistency */
+}
+
+.btn-view-students:hover {
+    background-color: #92BDF9; /* Darker color on hover */
+    border-color: #92BDF9;
+}
+
+
+#CourseandAtt .btn-primary {
+    background-color: #4d4af2;
+    color: #fafafa;
+    border-color: #4d4af2;
+}
+
+#CourseandAtt .btn-primary:hover {
+    background-color: #4d4af2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.center button {
+    padding: 10px 20px;
+    background: #4d4af2;
+    color: #ffffff;
+    border: 1px solid #222;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.center button#update-btn {
+    background-color: #4d4af2;
+    color: #FFFFFF;
+    border-color: #4d4af2;
+}
+
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Add this CSS rule to change text color inside table cells */
+table td {
+    color: #1941BA; /* Change this color as per your preference */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Responsive Table Styles */
+    table {
+        overflow-x: auto;
+    }
+}
+
+/*search button styles*/
+
+/* styles.css */
+
+#searchBtn {
+    background-color: #1941BA; /* Green color */
+    border-color: #1941BA; /* Border color same as background for consistency */
+    color: #fff; /* White text color */
+}
+
+#searchBtn:hover {
+    background-color: #1941BA; /* Darker green on hover */
+    border-color: #1941BA;
+}
+
+/*add schedule button*/
+/* Add New Schedule Button */
+.add-schedule-btn {
+    background-color: #4d4af2; /* Green color */
+    border-color: #4d4af2; /* Border color same as background for consistency */
+    color: #fff; /* White text color */
+}
+
+.add-schedule-btn:hover {
+    background-color: #4d4af2; /* Darker green on hover */
+    border-color: #4d4af2; /* Darker border color on hover */
+}
+
+
+/* Update button styles */
+.btn-success {
+    background-color: #4d4af2; /* Green color for Update button */
+    border-color: #4d4af2; /* Border color for consistency */
+    color: #fff; /* White text color */
+}
+
+.btn-success:hover {
+    background-color: #4d4af2; /* Darker green on hover */
+    border-color: #4d4af2; /* Darker border color on hover */
+}
+
+/* Delete button styles */
+.btn-danger {
+    background-color: #92BDF9; /* Red color for Delete button */
+    border-color: #92BDF9; /* Border color for consistency */
+    color: #fff; /* White text color */
+}
+
+.btn-danger:hover {
+    background-color: #92BDF9; /* Darker red on hover */
+    border-color: #92BDF9; /* Darker border color on hover */
+}
