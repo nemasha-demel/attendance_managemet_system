@@ -77,38 +77,52 @@
             </div>
         </section>
 
-        <section  id = "contact" class=" d-flex justify-content-center align-items-center flex-column">
-            <form>
-                <h5>Contact Us</h5>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Name</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Name</label>
-                    <textarea   class="form-control" rows="4"> </textarea>
-                </div>
-                
-                <button type="submit" class="btn btn-primary">Send</button>
-            </form>
-        </section>
-     
-        
+        <section id="contact" class="d-flex justify-content-center align-items-center flex-column">
+                <form id="contactForm" action="index.php" method="post">
+                    <h5>Contact Us</h5>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" name="name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Role</label>
+                        <select name="role" class="form-control">
+                            <option value=""></option>
+                            <option value="Lecturer">Lecturer</option>
+                            <option value="Student">Student</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </section>
         </div>
         <footer class="text-center">
-            <p> &copy; 2024 Geethma & Nemasha. All rights reserved.</p>
-    </footer>
-
+            <p>&copy; 2024 Geethma & Nemasha. All rights reserved.</p>
+        </footer>
     </div>
-    
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // Check if the URL contains a success query parameter
+    if (window.location.search.includes('success=true')) {
+        // Display a success message or any other feedback to the user
+        alert('Your message has been sent successfully!');
 
+        // Reset the form fields
+        document.getElementById('contactForm').reset();
+
+        // Remove the success parameter from the URL
+        window.history.replaceState({}, document.title, window.location.pathname);
+    }
+    </script>
 </body>
 </html>
